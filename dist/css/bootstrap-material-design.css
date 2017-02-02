@@ -3490,8 +3490,8 @@ table > thead > tr {
   color: rgba(255,255,255, 0.84);
 }
 .nav-pills > li.active > a,
-.nav-pills > li.active a:focus,
-.nav-pills > li.active a:hover {
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
   background: #2e7d32;
   color: rgba(255,255,255, 0.84);
 }
