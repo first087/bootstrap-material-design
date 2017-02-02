@@ -91,3 +91,21 @@ legend {
 
 // External plugins
 @import "_plugins.less";
+
+table {
+  > thead {
+    > tr {
+      background: @brand-primary;
+      color: @mdb-text-color-light;
+    }
+  }
+}
+
+.nav-pills {
+  > li.active {
+    > a, a:focus, a:hover {
+      background: @brand-primary;
+      color: @mdb-text-color-light;
+    }
+  }
+}
