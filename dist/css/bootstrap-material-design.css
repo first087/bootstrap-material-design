@@ -3495,4 +3495,8 @@ table > thead > tr {
   background: #2e7d32;
   color: rgba(255,255,255, 0.84);
 }
+ul.nav > li .badge {
+  color: #2e7d32;
+  background-color: #fff;
+}
 /*# sourceMappingURL=bootstrap-material-design.css.map */
