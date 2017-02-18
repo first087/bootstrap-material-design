@@ -11,7 +11,7 @@ $mdb-text-color-primary-hex: $black !default; // for contrast function in invers
 $icon-color: rgba(0,0,0,0.5) !default;
 
 
-$mdb-label-color: unquote("rgba(#{$rgb-black}, 0.26)") !default;
+$mdb-label-color: unquote("rgba(#{$rgb-black}, 0.74)") !default;
 $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
 
 
@@ -25,7 +25,7 @@ $mdb-label-color-toggle-focus: unquote("rgba(#{$rgb-black}, .54)") !default;
 $brand-primary: $green-800 !default;
 $brand-success: $green !default;
 $brand-danger: $red !default;
-$brand-warning: $deep-orange !default;
+$brand-warning: $orange !default;
 $brand-info: $light-blue !default;
 
 $border-radius-base: 2px !default;
@@ -63,8 +63,8 @@ $contrast-factor: 40% !default;
 
 // --------------------
 // inputs
-$mdb-input-placeholder-color: #BDBDBD !default;
-$mdb-input-underline-color: #D2D2D2 !default;
+$mdb-input-placeholder-color: $grey-600 !default;
+$mdb-input-underline-color: $grey-500 !default;
 $mdb-label-static-size-ratio: 75 / 100 !default;
 $mdb-help-block-size-ratio: 75 / 100 !default;
 
@@ -154,7 +154,7 @@ $mdb-btn-font-size-sm: 12px !default;
 $mdb-btn-font-size-xs: 10px !default;
 
 
-$mdb-btn-background-color: $body-bg; //transparent !default;
+$mdb-btn-background-color: $body-bg !default;
 $mdb-btn-background-color-text: $mdb-text-color-primary !default;
 
 

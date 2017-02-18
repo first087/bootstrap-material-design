@@ -2726,6 +2726,10 @@ fieldset[disabled] .navbar .btn-link:focus {
     padding-bottom: 15px;
   }
 }
+.navbar-nav > li > a .badge {
+  color: #2e7d32;
+  background-color: #fff;
+}
 .dropdown-menu {
   border: 0;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -2862,6 +2866,35 @@ fieldset[disabled] .navbar .btn-link:focus {
 }
 .text-info {
   color: #03a9f4;
+}
+table {
+  width: 100%;
+}
+table thead th {
+  color: rgba(0, 0, 0, 0.46);
+  font-weight: 400;
+}
+.table > thead > tr > th {
+  vertical-align: middle;
+}
+.table thead th {
+  color: rgba(255,255,255, 0.84);
+}
+.table thead th,
+.table-primary thead th {
+  background: #2e7d32;
+}
+.table-success thead th {
+  background: #4caf50;
+}
+.table-info thead th {
+  background: #03a9f4;
+}
+.table-warning thead th {
+  background: #ff9800;
+}
+.table-danger thead th {
+  background: #f44336;
 }
 .nav-tabs {
   background: #2e7d32;
@@ -3485,9 +3518,8 @@ hr.on-light {
   pointer-events: none;
   color: #757575;
 }
-table > thead > tr {
-  background: #2e7d32;
-  color: rgba(255,255,255, 0.84);
+.badge {
+  background-color: #2e7d32;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
@@ -3495,8 +3527,9 @@ table > thead > tr {
   background: #2e7d32;
   color: rgba(255,255,255, 0.84);
 }
-ul.nav > li .badge {
+.nav-pills > li.active > a > .badge,
+.nav-pills > li.active > a:focus > .badge,
+.nav-pills > li.active > a:hover > .badge {
   color: #2e7d32;
-  background-color: #fff;
 }
 /*# sourceMappingURL=bootstrap-material-design.css.map */
