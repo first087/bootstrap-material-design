@@ -2,16 +2,43 @@
 
 table {
   width: 100%;
-  font-size: 12px;
+//  font-size: 12px;
   thead th {
     color: rgba(0, 0, 0, 0.46);
     font-weight: 400;
   }
-  td, th {
-    padding: 10px 15px;
-    border-bottom: 1px solid #E0E0E0;
+//  td, th {
+//    padding: 10px 15px;
+//    border-bottom: 1px solid #E0E0E0;
+//  }
+//  tbody tr:hover {
+//    background-color: #EEEEEE;
+//  }
+}
+
+.table {
+  thead th {
+      color: @mdb-text-color-light;
   }
-  tbody tr:hover {
-    background-color: #EEEEEE;
+
+  thead th,
+  &-primary thead th {
+    background: @brand-primary;
+  }
+
+  &-success thead th {
+    background: @brand-success;
+  }
+
+  &-info thead th {
+    background: @brand-info;
+  }
+
+  &-warning thead th {
+    background: @brand-warning;
+  }
+
+  &-danger thead th {
+    background: @brand-danger;
   }
 }
