@@ -93,20 +93,18 @@ legend {
 // External plugins
 @import "_plugins.less";
 
+.badge {
+  background-color: @badge-active-color;
+}
+
 .nav-pills {
   > li.active {
     > a, > a:focus, > a:hover {
       background: @brand-primary;
       color: @mdb-text-color-light;
-    }
-  }
-}
-
-ul.nav {
-  > li {
-    .badge {
-      color: @badge-active-color;
-      background-color: @badge-active-bg;
+      > .badge {
+        color: @badge-active-color;
+      }
     }
   }
 }
